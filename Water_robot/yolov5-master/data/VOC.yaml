@@ -1,0 +1,9 @@
+# 上面那三个txt文件的位置
+path :
+train: ./data/VOC2007/YOLO/images/train
+val: ./data/VOC2007/YOLO/images/val
+test: ./data/VOC2007/test/test
+# number of classes
+nc: 2   # 修改为自己的类别数量
+# class names
+names: ["battery","bottle"]   # 自己来的类别名称
